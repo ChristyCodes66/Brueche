@@ -32,8 +32,9 @@ public class Bruch implements Comparable<Bruch> {
     }
 
     /**
-     * Konstruktor der Klasse, bekommt den Nenner und ZÃ¤hler übergeben und bringt diese in
-     * die Normalform bei der das negative Vorzeichen vor dem ZÃ¤hler steht bzw. negative Vorzeichen vor Nenner und Zähler sich aufheben.
+     * Konstruktor der Klasse, bekommt den Nenner und Zaehler übergeben und bringt diese in
+     * die Normalform bei der das negative Vorzeichen vor dem Zaehler steht bzw. negative
+     * Vorzeichen vor Nenner und Zähler sich aufheben.
      *
      * @param zaehler Zähler der gesetzt werden soll
      * @param nenner  Nenner der gesetzt werden soll, darf nicht 0 sein
@@ -60,7 +61,7 @@ public class Bruch implements Comparable<Bruch> {
     }
 
     /**
-     * Getter fÃ¼r nenner
+     * Getter fuer nenner
      *
      * @return Wert von nenner
      */
@@ -69,7 +70,7 @@ public class Bruch implements Comparable<Bruch> {
     }
 
     /**
-     * Multipliziert den Bruch this mit dem übergebenen Bruch b und gibt das Ergebtnis als Bruch zurück.
+     * Multipliziert den Bruch this mit dem übergebenen Bruch b und gibt das Ergebnis als Bruch zurück.
      *
      * @param b Bruch mit dem multipliziert werden soll
      * @return Ergebnis der Multiplikation als Bruch
@@ -87,7 +88,7 @@ public class Bruch implements Comparable<Bruch> {
      * @return Wert des Bruchs als Gleitkommazahl (double)
      */
     public double ausrechnen() {
-        return getZaehler() / getNenner();
+        return (double) getZaehler() / getNenner();
     }
 
     /**
